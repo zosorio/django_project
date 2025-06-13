@@ -7,5 +7,10 @@
 </head>
 <body>
     This is the car list.
+    <ul>
+        {% for car in car_list %}
+            <li>{{ car.title }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
