@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual (ajusta si el nombre es distinto)
+env/
+venv/
+ENV/
+envs/
+.venv/
+
+# Archivos de entorno de desarrollo
+*.env
+*.local
+.env.*
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs
+*.log
+*.pot
+*.mo
+
+# Archivos de base de datos
+*.sqlite3
+db.sqlite3
+
+# Archivos de caché de Django
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de migraciones si no deseas versionarlos (opcional)
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# Archivos de compilación
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Archivos de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de archivos temporales o de backup
+*~
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Static files (si se generan dinámicamente con collectstatic)
+staticfiles/
+static/
+media/
+
+# Archivos de producción / despliegue
+*.pem
+*.crt
+*.key
+*.pub
